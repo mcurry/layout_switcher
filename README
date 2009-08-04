@@ -15,9 +15,9 @@
 
 /* ReadMe */
    1. You'll need a working version of CakePHP installed. This is running on 1.2.0.7692 RC3.
-   2. Download the component and unzip the contents to app/controllers/components.
+   2. Download the component and unzip the contents to app/plugins/layout_switcher.
    3. Add the component to your /app/app_contoller.php so that it will work on every page:
-      var $components = array('LayoutSwitcher');
+      var $components = array('LayoutSwitcher.LayoutSwitcher');
    4. Create layout files for each domain you want to have a distinct look. The templates should be named domain.thtml and placed in the normal layout folder, /app/views/layouts. This site has layouts sandbox.pseudocoder.com.thtml and sandbox.siteamomth.com.thtml. Leave off the "www.".
 
 /* Tips */
